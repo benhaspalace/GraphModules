@@ -2,11 +2,11 @@ name: Release modules
 
 on:
   push:
-    tags: ['graphform-*']
+    tags: ['graphmodules-*']
   workflow_dispatch:
     inputs:
       tag:
-        description: Existing graphform release tag to finish or verify
+        description: Existing GraphModules release tag to finish or verify
         required: true
         type: string
 
